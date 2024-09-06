@@ -59,8 +59,8 @@
               >About</a
             >
             <a
-              class="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors cursor-pointer"
               href="/blog.html"
+              class="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors cursor-pointer"
               >Blog</a
             >
             <a
@@ -125,23 +125,249 @@
         >
       </div>
     </header>
+    <main class="p-4">
+      <div class="grid md:grid-cols-3 max-w-7xl mx-auto gap-4 mt-5">
+        <!--! Inicio del articulo -->
+        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <!--! Cabecera del articulo donde se guarda la imagen -->
+          <div class="h-52">
+            <img
+              class="h-full w-full object-cover object-center"
+              src="./public/img/article-1.jpg"
+              alt="Desarrollo de una app con React JS con Vite 3"
+            />
+          </div>
 
-    <main>
-      <div
-        class="bg-banner h-[560px] flex items-center justify-center flex-col"
-      >
-        <h2 class="text-white font-bold text-6xl py-7">Todo sobre software.</h2>
-        <p class="text-white font-normal text-base py-7">
-          Últimas noticias en el mundo del desarrollo de software
-        </p>
-        <button
-          class="p-3.5 border-sky-500 bg-sky-500 text-white rounded-2xl shadow"
-        >
-          Ver publicaciones
-        </button>
+          <!--! Contenido del articulo, tag, titulo y descripcion -->
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-sm font-semibold text-sky-500">React JS</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Desarrollo de una app con React JS con Vite 3
+            </h2>
+            <p class="text-slate-500 hidden md:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos maxime enim aliquid quidem, cum inventore! Voluptates
+              error sapiente ratione accusamus, quia libero in, at nam impedit
+              cupiditate eos mollitia labore!
+            </p>
+          </div>
+
+          <!--! Footer de la tarjeta  -->
+          <div class="flex p-5 space-x-2">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Sebastian Gonzalez"
+              alt="Sebastian Gonzalez"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Sebastian Gonzalez</span
+              >
+              <span class="text-sm text-slate-500">Ago 31, 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <!--! Cabecera del articulo donde se guarda la imagen -->
+          <div class="h-52">
+            <img
+              class="h-full w-full object-cover object-center"
+              src="./public/img/article-2.jpg"
+              alt="¿Qué es la realidad virtual?"
+            />
+          </div>
+
+          <!--! Contenido del articulo, tag, titulo y descripcion -->
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-sm font-semibold text-sky-500">Realidad Virtual</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              ¿Qué es la realidad virtual?
+            </h2>
+            <p class="text-slate-500 hidden md:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos maxime enim aliquid quidem, cum inventore!
+            </p>
+          </div>
+
+          <!--! Footer de la tarjeta  -->
+          <div class="flex p-5 space-x-2">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Omar Tapia"
+              alt="Omar Tapia"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Omar Tapia</span
+              >
+              <span class="text-sm text-slate-500">Ago 18, 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <!--! Cabecera del articulo donde se guarda la imagen -->
+          <div class="h-52">
+            <img
+              class="h-full w-full object-cover object-center"
+              src="./public/img/article-3.jpg"
+              alt="Consejos para aprender a programar"
+            />
+          </div>
+
+          <!--! Contenido del articulo, tag, titulo y descripcion -->
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-sm font-semibold text-sky-500">Programación</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Consejos para aprender a programar
+            </h2>
+            <p class="text-slate-500 hidden md:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos maxime enim aliquid quidem, cum inventore! Voluptates
+              error sapiente ratione accusamus, quia libero in, at nam impedit
+              cupiditate eos mollitia labore!, at nam impedit cupiditate eos
+              mollitia labore!
+            </p>
+          </div>
+
+          <!--! Footer de la tarjeta  -->
+          <div class="flex p-5 space-x-2">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Katarina Rostova"
+              alt="Katarina Rostova"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Katarina Rostova</span
+              >
+              <span class="text-sm text-slate-500">Ene 25, 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <!--! Cabecera del articulo donde se guarda la imagen -->
+          <div class="h-52">
+            <img
+              class="h-full w-full object-cover object-center"
+              src="./public/img/article-4.jpg"
+              alt="Saas, la nueva tecnología de desarrollo de software"
+            />
+          </div>
+
+          <!--! Contenido del articulo, tag, titulo y descripcion -->
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-sm font-semibold text-sky-500">En Tendencia</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Saas, la nueva tecnología de desarrollo de software
+            </h2>
+            <p class="text-slate-500 hidden md:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos maxime enim aliquid quidem, cum inventore! Voluptates
+              error sapiente ratione accusamus, quia libero in, at nam impedit
+              cupiditate eos mollitia labore!
+            </p>
+          </div>
+
+          <!--! Footer de la tarjeta  -->
+          <div class="flex p-5 space-x-2">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Camila Fernandez"
+              alt="Sebastian Gonzalez"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Camila Fernandez</span
+              >
+              <span class="text-sm text-slate-500">Dic 22, 2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <!--! Cabecera del articulo donde se guarda la imagen -->
+          <div class="h-52">
+            <img
+              class="h-full w-full object-cover object-center"
+              src="./public/img/article-5.jpg"
+              alt="Hacking etico: White Hat vs Gray Hat"
+            />
+          </div>
+
+          <!--! Contenido del articulo, tag, titulo y descripcion -->
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-sm font-semibold text-sky-500">Hacking</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Hacking etico: White Hat vs Gray Hat
+            </h2>
+            <p class="text-slate-500 hidden md:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos maxime enim aliquid quidem, cum inventore! Voluptates
+              error sapiente ratione accusamus, quia libero in, at nam impedit
+              cupiditate eos mollitia labore!
+            </p>
+          </div>
+
+          <!--! Footer de la tarjeta  -->
+          <div class="flex p-5 space-x-2">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Dorian Vásconez"
+              alt="Dorian Vásconez"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Dorian Vásconez</span
+              >
+              <span class="text-sm text-slate-500">Oct 29, 2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <!--! Cabecera del articulo donde se guarda la imagen -->
+          <div class="h-52">
+            <img
+              class="h-full w-full object-cover object-center"
+              src="./public/img/article-6.jpg"
+              alt="Seguridad Informatica en el 2024: Ascpectos a considerar"
+            />
+          </div>
+
+          <!--! Contenido del articulo, tag, titulo y descripcion -->
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-sm font-semibold text-sky-500">Hacking</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Seguridad Informatica en el 2024: Ascpectos a considerar
+            </h2>
+            <p class="text-slate-500 hidden md:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos maxime enim aliquid quidem, cum inventore! Voluptates
+              error sapiente ratione accusamus, quia libero in, at nam impedit
+              cupiditate eos mollitia labore!
+            </p>
+          </div>
+
+          <!--! Footer de la tarjeta  -->
+          <div class="flex p-5 space-x-2">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Rebeca Torres"
+              alt="Sebastian Gonzalez"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Rebeca Torres</span
+              >
+              <span class="text-sm text-slate-500">Jul 11, 2023</span>
+            </div>
+          </div>
+        </article>
       </div>
     </main>
-
     <footer class="py-10">
       <div
         class="flex flex-col items-center space-y-4 md:flex-row md:justify-between max-w-7xl mx-auto md:space-y-0"
